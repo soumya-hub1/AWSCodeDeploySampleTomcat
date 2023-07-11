@@ -11,12 +11,12 @@
             <table border="0" width="30%" cellpadding="3">
                 <thead>
                     <tr>
-                        <th colspan="2">Index</th>
+                        <th colspan="2">Account Login Page</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>User</td>
+                        <td>UserName</td>
                         <td><input type="text" name="EmailUser" value="" /></td>
                     </tr>
                     <tr>
