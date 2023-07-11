@@ -11,8 +11,7 @@ phases:
   post_build:
     commands:
       - echo "Packaging artifacts..."
-      - mkdir dist
-      - mv $CODEBUILD_SRC_DIR/target/LoginWebApp-1.war dist/LoginWebApp-1.war
+      - mv $CODEBUILD_SRC_DIR/target/LoginWebApp-1.war ROOT.war
 artifacts:
   files:
-    - dist/LoginWebApp-1.war
+    - ROOT.war
