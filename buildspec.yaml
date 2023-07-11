@@ -11,7 +11,7 @@ phases:
   post_build:
     commands:
       - echo "Packaging artifacts..."
-      - mv **/LoginWebApp-*.war dist/LoginWebApp.war
+      - mv /root/.m2/repository/com/devops4solutions/LoginWebApp/1//LoginWebApp-1.war dist/LoginWebApp-1.war
 artifacts:
   files:
-    - dist/LoginWebApp.war
+    - dist/LoginWebApp-1.war
