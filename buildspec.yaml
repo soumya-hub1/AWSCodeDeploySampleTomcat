@@ -8,8 +8,10 @@ phases:
     commands:
       - echo Build started on `date`
       - mvn install
-
+  post_build:
+    commands:
+      - echo "Packaging artifacts..."
+      - mv **/LoginWebApp-*.war dist/LoginWebApp.war
 artifacts:
   files:
-    - '**/LoginWebApp-1.war'
-  discard-paths: yes
+    - dist/LoginWebApp.war
