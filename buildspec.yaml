@@ -11,4 +11,4 @@ phases:
 
 artifacts:
   files:
-    - '`date`/LoginWebApp-1.war'
+    - '**/LoginWebApp-1.war'
